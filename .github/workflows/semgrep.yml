@@ -25,4 +25,4 @@ jobs:
 
       - name: Run Semgrep Security Scan
         run: |
-          semgrep scan --config "p/default" app.py --error
+          semgrep scan --config "p/default" --exclude ".github" --error
