@@ -9,4 +9,4 @@ def get_user_data(user_id):
     return cursor.fetchone()
 
 # DANGEROUS: Hardcoded cloud secret!
-AWS_ACCESS_KEY = "AKIAIOSFODNN7EXAMPLE"
+AWS_ACCESS_KEY = "AKIAIOSFODNN7EXAMPE"
